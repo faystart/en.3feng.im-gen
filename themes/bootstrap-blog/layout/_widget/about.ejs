@@ -1,0 +1,5 @@
+<!-- file: ./layout/_widget/about.ejs -->
+<div class="sidebar-module sidebar-module-inset">
+  <h4>About</h4>
+  <%- site.pages['data'].find(function(p) { return p.path === 'about/index.html'; }).content %>
+</div>
